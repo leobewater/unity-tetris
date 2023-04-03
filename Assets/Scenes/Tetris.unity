@@ -181,6 +181,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d327993d8f8b4e988e9bf8a08d4239e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tetrominos:
+  - tetromino: 0
+    tile: {fileID: 11400000, guid: 9ea25ffffd56d4e25851efd0867c1004, type: 2}
+  - tetromino: 1
+    tile: {fileID: 11400000, guid: 1a506944d442a4e9e8bbf5a675660f9f, type: 2}
+  - tetromino: 2
+    tile: {fileID: 11400000, guid: 7555aba3dae5d42abb3dc4ca601da6d6, type: 2}
+  - tetromino: 3
+    tile: {fileID: 11400000, guid: ac02bb539c59a4f0dafe6e861cc5c5b7, type: 2}
+  - tetromino: 4
+    tile: {fileID: 11400000, guid: 010d9d7e1f8094c268183fe028ea156d, type: 2}
+  - tetromino: 5
+    tile: {fileID: 11400000, guid: 78296f8dfe94343b28760f2928b2d1c1, type: 2}
+  - tetromino: 6
+    tile: {fileID: 11400000, guid: 7b3881c8b74da4d0e96c7fdc5031c3e8, type: 2}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
