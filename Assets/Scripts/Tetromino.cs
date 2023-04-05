@@ -1,3 +1,4 @@
+using UnityEngine;
 using UnityEngine.Tilemaps;
 
 public enum Tetromino
@@ -8,7 +9,16 @@ public enum Tetromino
 [System.Serializable]
 public struct TetrominoData
 {
-    public Tetromino tetromino;
-    // Reference which tile
     public Tile tile;
+    public Tetromino tetromino;
+
+    public Vector2Int[] cells { get; private set; }
+    public Vector2Int[,] wallKicks { get; private set; }
+
+    public void Initialize()
+    {
+        cells = Data.Cells[tetromino];
+        wallKicks = Data.WallKicks[tetromino];
+    }
+
 }
